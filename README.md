@@ -1,8 +1,8 @@
 # Weekly Checkpoint 3 – Stationery Shopping Cart (Decorator Pattern)
 
-**Author:** Samika Perera
-**Date:** 3 November 2026
-**Tech:** React 19 + TypeScript + Vite 6
+- **Author:** Samika Perera
+- **Date:** 3 November 2026
+- **Tech:** React 19 + TypeScript + Vite 6
 
 **GitHub repository:** https://github.com/SamikaPerera/weekly-checkpoint3
 
