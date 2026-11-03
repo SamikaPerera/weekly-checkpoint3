@@ -224,6 +224,8 @@ npm run preview  # serve the production build locally
 | Selection                         | Displayed result                                                                    |
 | --------------------------------- | ----------------------------------------------------------------------------------- |
 | Nothing ticked                    | "Your cart is empty. Tick at least one item to see the total cost."                 |
-| Pens x 3                          | `Total Cost: $36.00 NZD` – Cart, Pens x 3                                           |
-| Pens x 3, Pencils x 3             | `Total Cost: $66.00 NZD` – Cart, Pens x 3, Pencils x 3                              |
-| One of every item                 | `Total Cost: $95.00 NZD` – Cart, Exercise Books x 1, Pens x 1, Pencils x 1, Sharpener x 1, Glue Sticks x 1 |
+| Pens x 3                          | `Total Cost: $36.00 NZD` – Cart contents: Pens x 3                                           |
+| Pens x 3, Pencils x 3             | `Total Cost: $66.00 NZD` – Cart contents: Pens x 3, Pencils x 3                              |
+| One of every item                 | `Total Cost: $95.00 NZD` – Cart contents: Exercise Books x 1, Pens x 1, Pencils x 1, Sharpener x 1, Glue Sticks x 1 |
+
+The page removes the leading `"Cart, "` that `BaseCart` adds, so `getDescription()` returns `"Cart, Pens x 3"` but the page shows `Pens x 3` (see `formatSummary()` in `ShoppingCartUI.tsx`).
