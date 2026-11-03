@@ -4,7 +4,7 @@
 **Date:** 3 November 2026
 **Tech:** React 19 + TypeScript + Vite 6
 
-**GitHub repository:** `https://github.com/SamikaPerera/weekly-checkpoint3` <!-- TODO: confirm the URL after pushing -->
+**GitHub repository:** https://github.com/SamikaPerera/weekly-checkpoint3
 
 ---
 
